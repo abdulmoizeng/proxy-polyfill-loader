@@ -1,0 +1,20 @@
+{
+  "name": "proxy-polyfill-loader",
+  "version": "1.0.0",
+  "description": "proxy poly fill loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es6Toes5",
+    "proxy-polyfill",
+    "webpack"
+  ],
+  "author": "Muhammad AbdulMoiz",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^1.0.3",
+    "proxy-polyfill": "^0.1.6"
+  }
+}
