@@ -14,7 +14,7 @@
   "author": "Muhammad AbdulMoiz",
   "license": "ISC",
   "dependencies": {
-    "loader-utils": "^1.0.3",
+    "loader-utils": "^0.2.6",
     "proxy-polyfill": "^0.1.6"
   }
 }
