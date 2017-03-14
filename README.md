@@ -29,7 +29,14 @@ module.exports = {
 
 ## Proxy fill
 
-Added by proxy-polyfill module es5 standard transpilation
+Added by proxy-polyfill (https://github.com/GoogleChrome/proxy-polyfill) module es5 standard transpilation
+can be transpiled by following commands
+
+``` shell
+npm install
+npm run transpile-proxy
+```
+
 
 
 ## License
