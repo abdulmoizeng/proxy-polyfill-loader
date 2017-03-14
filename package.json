@@ -1,6 +1,6 @@
 {
   "name": "proxy-polyfill-loader",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "proxy poly fill loader for webpack",
   "main": "index.js",
   "scripts": {

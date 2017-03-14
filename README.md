@@ -27,6 +27,11 @@ module.exports = {
 }
 ```
 
+## Proxy fill
+
+Added by proxy-polyfill module es5 standard transpilation
+
+
 ## License
 
 [MIT](http://www.opensource.org/licenses/mit-license.php)
