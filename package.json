@@ -1,10 +1,11 @@
 {
   "name": "proxy-polyfill-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "proxy poly fill loader for webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "babel node_modules/proxy-polyfill/proxy.js --out-file lib/proxy-compiled.js --presets=es2015"
   },
   "keywords": [
     "es6Toes5",
@@ -16,5 +17,9 @@
   "dependencies": {
     "loader-utils": "^0.2.6",
     "proxy-polyfill": "^0.1.6"
+  },
+  "devDependencies": {
+   "babel-preset-es2015": "^6.24.0",
+    "babel-cli": "^6.24.0"
   }
 }
